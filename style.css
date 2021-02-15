@@ -15,6 +15,8 @@
     height: 40px;
     border-radius: 25px;
     color: cornsilk;
+    border: 1px solid;
+    border-color: rgb(223,225,229);
 }
 #searchbar {
     text-align: center;
@@ -23,9 +25,11 @@
 .lucky {
     padding: 10px;
     border-radius: 5px;
-    font-size: 12px;
-    background-color: rgb(247, 247, 247);
+    font-size: 14px;
+    background-color: #f8f9fa;
     color: black;
+    font-family: arial, sans-serif;
+    margin: 11px 4px;
 }
 a {
     text-decoration: none;
@@ -52,9 +56,20 @@ footer {
     left: 0px;
     bottom: 0px;
     width: 100%;
-    font-size: 13px;
-    color: grey;
+    font-size: 15px;
+    font-family: arial, sans-serif;
 }
 #langs {
     padding: 20px;
+    font-size: 14px;
+}
+.foot {
+    padding: 10px;
+    border: 2px;
+    color:rgba(0, 0, 0, 0.54);
+    border-bottom: 1px solid #dadce0;
+}
+.ending {
+    padding: 10px;
+    color: black;
 }
